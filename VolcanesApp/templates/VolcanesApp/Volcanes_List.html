@@ -1,0 +1,18 @@
+<h1>Listado de Volcanes</h1>
+
+<p>
+<a href="{% url "volcanes:new" %}">Agregar curso</a>
+</p>
+
+<ul>
+    {% for volcanes in object_list %}
+        <li>
+            <p>{{ volcanes.NOMBREVOLC }}</p>
+            <p>
+                <a href="{% url "volcanes:detail" volcanes.OBJECTID %}">Ver</a> |
+                <a href="{% url "volcanes:edit" volcanes.OBJECTID %}">Editar</a> |
+                <a href="{% url "volcanes:delete" volcanes.OBJECTID %}">Borrar</a>
+            </p>
+        </li>
+    {% endfor %}
+</ul>

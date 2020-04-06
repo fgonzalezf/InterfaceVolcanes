@@ -1,0 +1,890 @@
+{
+
+  "displayFieldName" : "",
+
+  "fieldAliases" : {
+
+    "OBJECTID" : "OBJECTID",
+
+    "NOMBREVOLC" : "NOMBREVOLC",
+
+    "ALTURASOBR" : "ALTURASOBR",
+
+    "LATITUD" : "LATITUD",
+
+    "LONGITUD" : "LONGITUD",
+
+    "URL" : "URL",
+
+    "ACTIVIDAD" : "ACTIVIDAD",
+
+    "IMAGEN" : "IMAGEN",
+
+    "IMAGENESGALERIA" : "IMAGENESGALERIA"
+
+  },
+
+  "geometryType" : "esriGeometryPoint",
+
+  "spatialReference" : {
+
+    "wkid" : 4686,
+
+    "latestWkid" : 4686
+
+  },
+
+  "fields" : [
+
+    {
+
+      "name" : "OBJECTID",
+
+      "type" : "esriFieldTypeOID",
+
+      "alias" : "OBJECTID"
+
+    },
+
+    {
+
+      "name" : "NOMBREVOLC",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "NOMBREVOLC",
+
+      "length" : 50
+
+    },
+
+    {
+
+      "name" : "ALTURASOBR",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "ALTURASOBR"
+
+    },
+
+    {
+
+      "name" : "LATITUD",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "LATITUD",
+
+      "length" : 25
+
+    },
+
+    {
+
+      "name" : "LONGITUD",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "LONGITUD",
+
+      "length" : 25
+
+    },
+
+    {
+
+      "name" : "URL",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "URL",
+
+      "length" : 254
+
+    },
+
+    {
+
+      "name" : "ACTIVIDAD",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "ACTIVIDAD",
+
+      "length" : 20
+
+    },
+
+    {
+
+      "name" : "IMAGEN",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "IMAGEN",
+
+      "length" : 255
+
+    },
+
+    {
+
+      "name" : "DETALLE",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "DETALLE",
+
+      "length" : 255
+
+    },
+
+    {
+
+      "name" : "IMAGENESGALERIA",
+
+      "type" : "esriFieldTypeString",
+
+      "alias" : "IMAGENESGALERIA",
+
+      "length" : 255
+
+    }
+
+  ],
+
+  "features" : [
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 17,
+
+        "NOMBREVOLC" : "Volc\u00E1n Azufral",
+
+        "ALTURASOBR" : "4070 (mts)" ,
+
+        "LATITUD" : "1\u00B0 5' 4,500\" N",
+
+        "LONGITUD" : "77\u00B0 43' 0,057\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanAzufral/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_azufral.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanAzufral/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanAzufral/Paginas/imagenes-Volcan-Azufral.aspx"
+		
+
+      },
+
+      "geometry" : {
+
+        "x" : -77.716682570744013,
+
+        "y" : 1.0845834542630541
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 6,
+
+        "NOMBREVOLC" : "Volc\u00E1n Cerro Bravo",
+
+        "ALTURASOBR" : "4000 (mts)",
+
+        "LATITUD" : "5\u00B0 5' 27,22\" N",
+
+        "LONGITUD" : "75\u00B0 17' 32,88\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroBravo/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Cerro_Bravo.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroBravo/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroBravo/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.291651028272327,
+
+        "y" : 5.0846062710626256
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 3,
+
+        "NOMBREVOLC" : "Volc\u00E1n Cerro Mach\u00EDn",
+
+        "ALTURASOBR" : "2750 (mts)",
+
+        "LATITUD" : "4\u00B0 29' 11,928\" N",
+
+        "LONGITUD" : "75\u00B0 23' 10,300\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroMachin/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Volcan_Cerro_Machin.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroMachin/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroMachin/Paginas/Galeria-de-imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.386194309719599,
+
+        "y" : 4.4866466739049429
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 18,
+
+        "NOMBREVOLC" : "Volc\u00E1n Cerro Negro",
+
+        "ALTURASOBR" : "4470 (mts)",
+
+        "LATITUD" : "0\u00B0 49' 48,53\" N",
+
+        "LONGITUD" : "77\u00B0 58' 10,31\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroNegro/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Volcan_Cerro_Negro.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroNegro/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCerroNegro/Paginas/Galeria-de-imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -77.968185930935931,
+
+        "y" : 0.8232069886116733
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 9,
+
+        "NOMBREVOLC" : "Volc\u00E1n Chiles",
+
+        "ALTURASOBR" : "4748 (mts)",
+
+        "LATITUD" : "0\u00B0 48' 56,48\" N",
+
+        "LONGITUD" : "77\u00B0 56' 8,09\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanChiles/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Volcan_Chiles.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanChiles/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanChiles/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -77.936689217733147,
+
+        "y" : 0.81443131055658569
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 1,
+
+        "NOMBREVOLC" : "Volc\u00E1n Cumbal",
+
+        "ALTURASOBR" : "4764 (mts)",
+
+        "LATITUD" : "0\u00B0 57' 21,67\" N",
+
+        "LONGITUD" : "77\u00B0 53' 6,54\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanCumbal/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Volcan_Cumbal.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCumbal/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanCumbal/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -77.896240659179057,
+
+        "y" : 0.95103976017685454
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 2,
+
+        "NOMBREVOLC" : "Volc\u00E1n de Do\u00F1a Juana",
+
+        "ALTURASOBR" : "4160 (mts)",
+
+        "LATITUD" : "1\u00B0 29' 51,568\" N",
+
+        "LONGITUD" : "76\u00B0 56' 20,974\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/ComplejoVolcanicoDonaJuana/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Donia_Juana.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/ComplejoVolcanicoDonaJuana/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/ComplejoVolcanicoDonaJuana/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -76.939159414575272,
+
+        "y" : 1.4976576471827343
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 7,
+
+        "NOMBREVOLC" : "Volc\u00E1n Galeras",
+
+        "ALTURASOBR" : "4276 (mts)",
+
+        "LATITUD" : "1\u00B0 13' 16,90\" N",
+
+        "LONGITUD" : "77\u00B0 21' 33,18\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanGaleras/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Volcan_Galeras.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanGaleras/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanGaleras/Paginas/fotos.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -77.359411326971099,
+
+        "y" : 1.2221401553439364
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 16,
+
+        "NOMBREVOLC" : "Volc\u00E1n Las \u00C1nimas",
+
+        "ALTURASOBR" : "4300 (mts)",
+
+        "LATITUD" : "1\u00B0 29' 17,665\" N",
+
+        "LONGITUD" : "76\u00B0 49' 23,450\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanAnimas/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/volcan_animas.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanAnimas/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanAnimas/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -76.823180641073691,
+
+        "y" : 1.4882402488884168
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 14,
+
+        "NOMBREVOLC" : "Volc\u00E1n Nevado del Huila",
+
+        "ALTURASOBR" : "5364 (mts)",
+
+        "LATITUD" : "2\u00B0 55' 25,802\" N",
+
+        "LONGITUD" : "76\u00B0 1' 42,929\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoHuila/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Vocan_Nevado_Huila.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoHuila/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoHuila/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -76.028591256381333,
+
+        "y" : 2.9238338091830087
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 12,
+
+        "NOMBREVOLC" : "Volc\u00E1n Nevado del Ruiz",
+
+        "ALTURASOBR" : "5321 (mts)",
+
+        "LATITUD" : "4\u00B0 53' 41.49\" N",
+
+        "LONGITUD" : "75\u00B0 19' 15.09\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoRuiz/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Volcan_Nevado_del_Ruiz.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoRuiz/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoRuiz/Paginas/Galeria-de-im%C3%A1genes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.3208601474762,
+
+        "y" : 4.894859390025546
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 19,
+
+        "NOMBREVOLC" : "Volc\u00E1n Nevado del Tolima",
+
+        "ALTURASOBR" : "5215 (mts)",
+
+        "LATITUD" : "4\u00B0 39' 30,871\" N",
+
+        "LONGITUD" : "75\u00B0 19' 46,188\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoTolima/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Nevado_del_Tolima.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoTolima/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadoTolima/Paginas/Fotos.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.329496628666448,
+
+        "y" : 4.6585752621386973
+
+      }
+
+    },
+
+
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 4,
+
+        "NOMBREVOLC" : "Volc\u00E1n Nevado de Santa Isabel",
+
+        "ALTURASOBR" : "4965 (mts)",
+
+        "LATITUD" : "4\u00B0 48' 10,57\" N",
+
+        "LONGITUD" : "75\u00B0 22' 29,14\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadodeSantaIsabel/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Nevado_Santa_Isabel.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadodeSantaIsabel/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanNevadodeSantaIsabel/"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.371409405819406,
+
+        "y" : 4.8026145211433118
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 10,
+
+        "NOMBREVOLC" : "Volc\u00E1n Paramillo del Cisne",
+
+        "ALTURASOBR" : "4700 (mts)",
+
+        "LATITUD" : "4\u00B0 50' 33,43\" N",
+
+        "LONGITUD" : "75\u00B0 21' 8,65\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloCisne/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Paramillo_del_Cisne.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloCisne/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloCisne/"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.345526741965557,
+
+        "y" : 4.8430819267895231
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 11,
+
+        "NOMBREVOLC" : "Volc\u00E1n Paramillo del Quind\u00EDo",
+
+        "ALTURASOBR" : "4700 (mts)",
+
+        "LATITUD" : "4\u00B0 42' 53,03\" N",
+
+        "LONGITUD" : "75\u00B0 23' 19,64\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloQuindio/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Paramillo_del_Quindio.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloQuindio/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloQuindio/"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.380737521219601,
+
+        "y" : 4.7086888850840296
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 8,
+
+        "NOMBREVOLC" : "Volc\u00E1n Paramillo de Santa Rosa",
+
+        "ALTURASOBR" : "4600 (mts)",
+
+        "LATITUD" : "4\u00B0 47' 48,28\" N",
+
+        "LONGITUD" : "75\u00B0 27' 50,02\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloSantaRosa/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Paramillo_de_Santa_Rosa.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloSantaRosa/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanParamilloSantaRosa/"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.478811854883133,
+
+        "y" : 4.7920786486108113
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 5,
+
+        "NOMBREVOLC" : "Volc\u00E1n Purac\u00E9",
+
+        "ALTURASOBR" : "4650 (mts)",
+
+        "LATITUD" : "2\u00B0 18' 47,719\" N",
+
+        "LONGITUD" : "76\u00B0 23' 43,230\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanPurace/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Purace.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanPurace/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanPurace/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -76.395341611725939,
+
+        "y" : 2.3132553756351513
+
+      }
+
+    },
+
+
+
+
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 13,
+
+        "NOMBREVOLC" : "Volc\u00E1n Romeral",
+
+        "ALTURASOBR" : "3858 (mts)",
+
+        "LATITUD" : "5\u00B0 12' 21,600\" N",
+
+        "LONGITUD" : "75\u00B0 21' 50,400\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanRomeral/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_Romeral.bmp",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanRomeral/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanRomeral/"
+
+      },
+
+      "geometry" : {
+
+        "x" : -75.364000000299711,
+
+        "y" : 5.2060000001998787
+
+      }
+
+    },
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 20,
+
+        "NOMBREVOLC" : "Volc\u00E1n San Diego",
+
+        "ALTURASOBR" : "850 (mts)",
+
+        "LATITUD" : "5\u00B0 38' 56,496\" N",
+
+        "LONGITUD" : "74\u00B0 57' 36,185\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanSanDiego/",
+
+        "ACTIVIDAD" : "IV",
+
+        "IMAGEN" : "images/Volcan_San_Diego.png",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanSanDiego/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanSanDiego/"
+
+      },
+
+      "geometry" : {
+
+        "x" : -74.960051408046013,
+
+        "y" : 5.6490267209064768
+
+      }
+
+    },
+
+
+
+    {
+
+      "attributes" : {
+
+        "OBJECTID" : 15,
+
+        "NOMBREVOLC" : "Volc\u00E1n Sotar\u00E1",
+
+        "ALTURASOBR" : "4420 (mts)",
+
+        "LATITUD" : "2\u00B0 6' 26,87\" N",
+
+        "LONGITUD" : "76\u00B0 35' 26,08\" W",
+
+        "URL" : "https://www2.sgc.gov.co/sgc/volcanes/VolcanSotara/",
+
+        "ACTIVIDAD" : "III",
+
+        "IMAGEN" : "images/Volcan_sotara.jpg",
+
+        "DETALLE": "https://www2.sgc.gov.co/sgc/volcanes/VolcanSotara/",
+		
+		"IMAGENESGALERIA": "https://www2.sgc.gov.co/sgc/volcanes/VolcanSotara/Paginas/imagenes.aspx"
+
+      },
+
+      "geometry" : {
+
+        "x" : -76.590936631220529,
+
+        "y" : 2.1044928595578654
+
+      }
+
+    }
+
+  ]
+
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>{{ volcanes.NOMBREVOLC }}</h1>
+<p>Altura sobre el Nivel del Mar: <i>{{ volcanes.ALTURASOBR }}</i></p>
+<p>Latitud: <i>{{ volcanes.LATITUD }}</i></p>
+<p>Longitud: <i>{{ volcanes.LONGITUD }}</i></p>
+<p>Url: <i>{{ volcanes.URL }}</i></p>
+<p>Actividad: <i>{{ volcanes.ACTIVIDAD }}</i></p>
+<p>Imagen: <i>{{ volcanes.IMAGEN }}</i></p>
+<p>Detalle: <i>{{ volcanes.DETALLE }}</i></p>
+<p>Imagenes Galeria: <i>{{ volcanes.IMAGENESGALERIA }}</i></p>
+<p>
+    <a href="{% url "volcanes:list" %}">Regresar</a>
+</p>
+</body>
+</html>
