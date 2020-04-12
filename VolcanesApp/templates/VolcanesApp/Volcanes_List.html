@@ -1,7 +1,8 @@
+{% extends "Base.html" %}
+{% block section %}
 <h1>Listado de Volcanes</h1>
-
 <p>
-<a href="{% url "volcanes:new" %}">Agregar curso</a>
+<p></p><a href="{% url "volcanes:new" %}">Agregar Nuevo Volcán</a></p>
 </p>
 
 <ul>
@@ -16,3 +17,4 @@
         </li>
     {% endfor %}
 </ul>
+{% endblock %}

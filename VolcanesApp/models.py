@@ -15,5 +15,7 @@ class Volcanes(models.Model):
     IMAGEN = models.CharField(max_length=500)
     DETALLE = models.CharField(max_length=500)
     IMAGENESGALERIA = models.CharField(max_length=500)
+    LATITUD_DECIMALES = models.DecimalField(max_digits=23, decimal_places=20)
+    LONGITUD_DECIMALES = models.DecimalField(max_digits=23, decimal_places=20)
 
 # Create your models here.

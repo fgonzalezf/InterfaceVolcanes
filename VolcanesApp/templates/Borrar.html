@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block section %}
+<form action="" method="post">
+    {% csrf_token %}
+    <br>
+    <div align="center" style="width: 80%; margin:0 auto">
+    <table class="table table-striped">
+            {{ form.as_table}}
+    </table>
+        <p>Desea Borrar El Registro?</p>
+    <input type="submit" value="Aceptar" />
+    </div>
+<br>
+<br>
+</form>
+{% endblock %}

@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+{% block head %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% load static %}
+<title>Documento sin título</title>
+<script src="{% static "js/jquery-1.9.js"%}"></script>
+<script src="{% static "js/bootstrap.js" %}"></script>
+<script src="{% static "js/bootstrap.min.js"%}"></script>
+<script src="{% static "js/jput.min.js"%}"></script>
+    <script src="{% static "js/jquery.json2html.js"%}"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+<script>
+$(document).ready(function() {
+    $('ul li:has(ul)').hover(function(e) {
+         $(this).find('ul').css({display: "block"});
+     },
+     function(e) {
+         $(this).find('ul').css({display: "none"});
+     });
+});
+</script>
+{% endblock %}
+</head>
+
+<body>
+	<main>
+		<header>
+          {% block header %}
+			<div  id="inicio">
+
+				<div class="container">
+					<div class="col-md-12 col-xs-12 logos">
+
+
+					<div id="logos">
+						<img srcset=""{% static "images/logo.png 980w"%}","{% static "images/logo-b.png 767w" %}""  src="{% static "images/logo.png"%}" alt=""/>
+						<img  src="{% static "images/100logo.png"%}"/>
+						     <button aria-controls="navbar" aria-expanded="true" data-target="#navbar" data-toggle="collapse" class="navbar-toggle" type="button">
+					              <span class="sr-only">Toggle navigation</span>
+					              <span class="icon-bar"></span>
+					              <span class="icon-bar"></span>
+					              <span class="icon-bar"></span>
+					            </button>
+					</div>
+						<div id="logos2"><img src="{% static "images/minminaslogo.png" %}"/><img src="{% static "images/todospaislogo.png" %}"/></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+             {% endblock %}
+			<div id="menu" class="font-sm">
+            <!--
+            <a href="/">Inicio</a>
+            <a href="/metadatos">Listado metadatos</a>
+            <a href="/editor">Editor metadatos</a>
+            <a href="/login">Iniciar</a>
+            <a href="/logout">Salir</a>
+            -->
+            {% block menu %}
+            <ul class="menu">
+                <li><a href="/volcanes/">Inicio</a></li>
+                 <li><a href="/volcanes/nuevo">Crear Volcan</a>
+                <li><a href="/volcanes/login">iniciar</a></li>
+                <li><a href="/volcanes/logout">cerrar</a></li>
+            </ul>
+			</div>
+            {% endblock %}
+
+		</header>
+<div id="content">
+<section>
+<script>
+ var i=0;
+ var listaMetadatos=[];
+</script>
+{% block section %}
+<h3>Repositorio Metadatos Sistemas de Información Geocientifica</h3>
+
+{% endblock %}
+
+</section>
+</div>
+
+	<footer>
+        {% block footer %}
+		<div class="container">
+			<div id="datos">
+
+				<div class="row">
+
+					<div class="col-md-4 col-sx-12">
+						<b class="font-md">Dirección</b>
+						<p class="font-sm">
+							Diagonal 53 N0. 34 - 53  Bogotá D.C. Colombia
+							Lunes a viernes 8.00 a.m. a 5 p.m. para todas nuestras sedes </p>
+
+						<b class="font-md">Línea de atención al ciudadano y denuncias</b>
+						<p class="font-sm">
+							(571) 01 - 8000 - 110842  </p>
+					</div>
+
+					<div class="col-md-4 col-sx-12">
+						<b class="font-md">Teléfono</b>
+						<p class="font-sm">
+							(571) 220 0200  - (571) 220 0100   - (571) 222 1811
+							Fáx: (571) 222 07 97  </p>
+
+						<b class="font-md">Línea de atención 24 horas para emergencias radiológicas</b>
+						<p class="font-sm">
+							317 366 2793  </p>
+					</div>
+
+					<div class="col-md-4 col-sx-12 logoB">
+						<img src="{% static "images/logo-b.png"%}"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<aside>
+
+		<div class="container font-md">
+
+			<p>Todos los derechos reservados 2016-2017 Apartado Aéreo 4865</p>
+			<p><a href="#">Políticas de privacidad y términos de uso</a> | <a href="">Nuestras sedes</a> | Contáctenos: cliente@sgc.gov.co | <a href="">Notificaciones </a>judiciales</p>
+			</aside>
+
+        </div>
+        {% endblock %}
+	</footer>
+	</main>
+</body>
+{% block script %}
+<script type="text/javascript">
+
+$(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+			  $("li.subMenu").click(function(){
+			  	 $('.subMenuProductos').not(this).hide();
+			  	 $(this).children('ul').show();
+			  });
+
+			  $(".close").click(function(){
+			   $(this).parent().hide();
+    			return false;
+			  });
+
+
+		});
+
+jQuery(window).resize(function () { 
+
+/*Funcion productios*/
+
+	   if (jQuery(window).width() < 900) {
+
+	   		$(".subMenuProductos li").addClass("subitem").appendTo($(".itemProducto > ul"));
+	   }
+
+else{
+    	$(".subitem").removeClass("subitem").appendTo(".subMenuProductos");
+
+}
+
+   if (jQuery(window).width() < 767) {
+
+   
+$( ".nav.navbar-nav > li:first-child" ).replaceWith( "<li><a href='/'>Home</a></li>" );
+$( ".message" ).appendTo( $( "#navbar" ) );
+
+
+
+    }
+
+    else{
+
+    	$( ".nav.navbar-nav > li:first-child" ).replaceWith( " <li><a href='/''><img src='images/homeIcon.png'/></a></li>" );
+    	$( ".message" ).prependTo( $( "#inicio .container" ) );
+    	$(".subMenuProductos li").detach($(".itemProducto > ul"));
+    }  
+
+
+
+
+
+});
+
+</script>
+{% endblock %}
+</html>

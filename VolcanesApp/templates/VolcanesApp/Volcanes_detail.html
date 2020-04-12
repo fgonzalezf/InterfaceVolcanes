@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "Base.html" %}
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+{% block section %}
 <h1>{{ volcanes.NOMBREVOLC }}</h1>
 <p>Altura sobre el Nivel del Mar: <i>{{ volcanes.ALTURASOBR }}</i></p>
 <p>Latitud: <i>{{ volcanes.LATITUD }}</i></p>
@@ -14,8 +14,9 @@
 <p>Imagen: <i>{{ volcanes.IMAGEN }}</i></p>
 <p>Detalle: <i>{{ volcanes.DETALLE }}</i></p>
 <p>Imagenes Galeria: <i>{{ volcanes.IMAGENESGALERIA }}</i></p>
+<p>Longitud Decimales: <i>{{ volcanes.LONGITUD_DECIMALES}}</i></p>
+<p>Latitud Decimales <i>{{ volcanes.LATITUD_DECIMALES}}</i></p>
 <p>
     <a href="{% url "volcanes:list" %}">Regresar</a>
 </p>
-</body>
-</html>
+{% endblock %}
